@@ -1,0 +1,35 @@
+body {
+  background: #f3f4f6;
+  color: #777777;
+}
+
+.hmargin {
+  padding-left: 19vw;
+  padding-right: 19vw;
+}
+
+main {
+  width: 62vw;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .hmargin {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  main {
+    width: 80vw;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .hmargin {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  main {
+    width: 100vh;
+  }
+}

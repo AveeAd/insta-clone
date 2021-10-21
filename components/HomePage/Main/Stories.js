@@ -1,0 +1,82 @@
+import React from "react";
+
+const Stories = () => {
+  return (
+    <div
+      className="
+            flex
+            items-center
+            justify-start
+            space-x-2
+            bg-white
+            border-2
+            overflow-hidden
+            box-border
+            p-4
+          "
+    >
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+      <img
+        className="h-16"
+        src="/images/account_circle_black_24dp.svg"
+        alt=""
+      />
+    </div>
+  );
+};
+
+export default Stories;
