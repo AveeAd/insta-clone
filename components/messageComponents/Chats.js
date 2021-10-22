@@ -1,4 +1,5 @@
 import { FaInfoCircle } from "react-icons/fa";
+import Chatbox from "./Chatbox";
 
 const Chats = () => {
   return (
@@ -14,6 +15,7 @@ const Chats = () => {
         </div>
         <FaInfoCircle className="text-lg" />
       </div>
+      <Chatbox />
     </section>
   );
 };

@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header";
-import Main from "../../components/messageComponents/Main";
+import Main from "../../components/MessageComponents/Main";
 
 const MessagePage = () => {
   return (
