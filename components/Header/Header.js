@@ -8,10 +8,6 @@ import {
 
 import Link from "next/link";
 
-const iconStyles = {
-  fontSize: "1.7rem",
-};
-
 const Header = () => {
   return (
     <header
