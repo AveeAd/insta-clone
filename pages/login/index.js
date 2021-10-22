@@ -1,3 +1,4 @@
+import Link from "next/link";
 const index = () => {
   return (
     <div
@@ -36,9 +37,11 @@ const index = () => {
           type="password"
           placeholder="Password"
         />
-        <button className="btn bg-red-500 hover:bg-red-400 py-2 px-4 text-white rounded-lg">
-          Log In
-        </button>
+        <Link href="/">
+          <a className="btn bg-red-500 hover:bg-red-400 py-2 px-4 text-white rounded-lg">
+            Log In
+          </a>
+        </Link>
         <small>Forget Password?</small>
         <small>Don't have an account?</small>
       </div>

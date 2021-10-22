@@ -6,6 +6,8 @@ import {
   FaUserCircle,
 } from "react-icons/fa";
 
+import Link from "next/link";
+
 const iconStyles = {
   fontSize: "1.7rem",
 };
@@ -26,11 +28,13 @@ const Header = () => {
         top-0
       "
     >
-      <img
-        className="h-7"
-        src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
-        alt="instagram"
-      />
+      <Link href="/">
+        <img
+          className="h-7 cursor-pointer"
+          src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+          alt="instagram"
+        />
+      </Link>
       <input
         className="bg-gray-100 hidden md:block border-2 h-7 md:w-60 text-center"
         type="text"
@@ -39,19 +43,25 @@ const Header = () => {
       <nav>
         <ul className="flex space-x-4 items-center">
           <li>
-            <FaHome style={iconStyles} />
+            <Link href="/">
+              <FaHome className="cursor-pointer text-2xl" />
+            </Link>
           </li>
           <li>
-            <FaFacebookMessenger style={iconStyles} />
+            <Link href="/message">
+              <FaFacebookMessenger className="cursor-pointer text-2xl" />
+            </Link>
           </li>
           <li>
-            <FaCompass style={iconStyles} />
+            <Link href="/explore">
+              <FaCompass className="cursor-pointer text-2xl" />
+            </Link>
           </li>
           <li>
-            <FaHeart style={iconStyles} />
+            <FaHeart className="cursor-pointer text-2xl" />
           </li>
           <li>
-            <FaUserCircle style={iconStyles} />
+            <FaUserCircle className="cursor-pointer text-2xl" />
           </li>
         </ul>
       </nav>
